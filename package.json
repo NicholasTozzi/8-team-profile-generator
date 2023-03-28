@@ -1,5 +1,27 @@
 {
   "dependencies": {
-    "inquirer": "^9.1.4"
-  }
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.0.0"
+  },
+  "name": "8-team-profile-generator",
+  "description": "Your task is to build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest",
+    "run": "lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholasTozzi/8-team-profile-generator.git"
+  },
+  "author": "Nicholas Tozzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicholasTozzi/8-team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/NicholasTozzi/8-team-profile-generator#readme"
 }
