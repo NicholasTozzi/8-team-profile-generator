@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/NicholasTozzi/8-team-profile-generator/issues"
   },
-  "homepage": "https://github.com/NicholasTozzi/8-team-profile-generator#readme"
+  "homepage": "https://github.com/NicholasTozzi/8-team-profile-generator#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }

@@ -19,9 +19,9 @@ test("new Manager will return user email", () => {
 });
 
 test("new Manager will return user office number", () => {
-  const test = new Manager("Nico", 5, "theBigBoss99@yahoo.com", 605);
+  const test = new Manager("Nico", 5, "theBigBoss99@yahoo.com", 650);
 
-  expect(test.getOffice()).toBe(605);
+  expect(test.getOfficeNumber()).toBe(650);
 });
 
 test("new Manager will return role", () => {
